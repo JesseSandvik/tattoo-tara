@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom";
+import Footer from "./organisms/Footer";
+import MainHeader from "./organisms/MainHeader";
 
 import "./styles/global/global.css";
 
@@ -9,46 +10,12 @@ const App = () => {
         <div className="top">
           <div className="one"></div>
           <div className="two"></div>
-          <div className="three">
-        <nav>
-            <ul>
-              <li>
-                <NavLink
-                  to="/"
-                >
-                  home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/about"
-                >
-                  about
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/portfolio"
-                >
-                  portfolio
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/contact"
-                >
-                  contact
-                </NavLink>
-              </li>
-            </ul>
-          </nav>
-        </div>
+          <MainHeader />
         </div>
         <div className="mid">
           <div className="one">
             <div className="i x"></div>
-            <div className="i y">
-            </div>
+            <div className="i y"></div>
           </div>
           <div className="two"></div>
           <div className="three">
@@ -61,13 +28,7 @@ const App = () => {
             <div className="y"></div>
           </div>
         </div>
-        <div className="bot">
-          <div className="one">
-            <p>&copy; Body Designs Studio 2022</p>
-          </div>
-          <div className="two"></div>
-          <div className="three"></div>
-        </div>
+        <Footer />
       </div>
     </div>
   );

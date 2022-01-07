@@ -43,7 +43,7 @@ i {
 
             .one {}
             .two {}
-            .three {
+            header {
 
                 nav {
                     font-family: 'Permanent Marker', 'Times New Roman', Times, serif;
@@ -89,6 +89,10 @@ i {
                 background-size: cover;
                 border-radius: 15px;
                 box-shadow: 5px 5px 10px $text-color;
+
+                h1 {
+                    margin: 0;
+                }
             }
             .three {
                 display: grid;
@@ -103,7 +107,7 @@ i {
                 }
             }
         }
-        .bot {
+        footer {
             display: grid;
             grid-column: 1 / -1;
             grid-row: 3 / -1;
