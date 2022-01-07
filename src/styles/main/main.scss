@@ -1,0 +1,15 @@
+@import "../config";
+
+main {
+    background-image:
+        linear-gradient(to right,
+        rgba($text-color, 0.3),
+        rgba($text-color, 0.1)),
+        url("../../images/background-bw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px $text-color;
+    grid-column: 2 / 2;
+}

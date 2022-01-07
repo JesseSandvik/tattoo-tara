@@ -1,0 +1,10 @@
+section {
+  display: -ms-grid;
+  display: grid;
+  grid-column: 1 / -1;
+  -ms-grid-row: 2;
+  grid-row: 2 / 2;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+}
+/*# sourceMappingURL=pageBody.css.map */

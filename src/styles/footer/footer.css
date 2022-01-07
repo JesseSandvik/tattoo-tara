@@ -1,0 +1,36 @@
+footer {
+  display: -ms-grid;
+  display: grid;
+  grid-column: 1 / -1;
+  grid-row: 3 / -1;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  height: 3.5rem;
+}
+
+footer .left {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: 'Permanent Marker', 'Times New Roman', Times, serif;
+  -ms-grid-column: 1;
+  grid-column: 1 / 1;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  letter-spacing: 0.2rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer .left p {
+  margin: 0;
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,QAAQ,EAAE,KAAK;EACf,qBAAqB,EAAE,aAAa;CACvC",
+    "sources": [
+        "pageBody.scss"
+    ],
+    "names": [],
+    "file": "pageBody.css"
+}

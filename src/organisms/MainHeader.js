@@ -1,5 +1,6 @@
 import Navigation from "../molecules/Navigation";
 
+import "../styles/header/header.css";
 
 const MainHeader = () => {
     return (

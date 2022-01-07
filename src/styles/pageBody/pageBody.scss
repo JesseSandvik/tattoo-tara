@@ -1,0 +1,8 @@
+
+
+section {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-row: 2 / 2;
+    grid-template-columns: auto 1fr auto;
+}

@@ -1,13 +1,11 @@
+import FooterLeft from "../molecules/FooterLeft";
 
+import "../styles/footer/footer.css";
 
 const Footer = () => {
     return (
         <footer>
-          <div className="one">
-            <p>&copy; Body Designs Studio 2022</p>
-          </div>
-          <div className="two"></div>
-          <div className="three"></div>
+          <FooterLeft />
         </footer>
     );
 }

@@ -2,6 +2,8 @@ $background-color: #fff;
 $text-color: #000;
 $accent-color-one: #000;
 
-@mixin default-bg-color {
-    background: $background-color;
+@mixin default-social-icon-style {
+    color: $accent-color-one;
+    cursor: pointer;
+    font-size: 2rem;
 }

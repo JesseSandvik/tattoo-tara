@@ -1,0 +1,27 @@
+@import "../config";
+
+.sideBar {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 3.5rem;
+
+    .top {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        grid-row: 1 / 1;
+        justify-content: space-around;
+
+        i {
+            @include default-social-icon-style;
+        }
+    }
+
+    &.left {
+        grid-column: 1 / 1;
+    }
+
+    &.right {
+        grid-column: 3 / -1;
+    }
+}

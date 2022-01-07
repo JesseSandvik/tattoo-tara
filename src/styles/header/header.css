@@ -1,0 +1,11 @@
+header {
+  display: -ms-grid;
+  display: grid;
+  grid-column: 1 / -1;
+  -ms-grid-row: 1;
+  grid-row: 1 / 1;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  height: 3.5rem;
+}
+/*# sourceMappingURL=header.css.map */
