@@ -1,15 +1,43 @@
 @import "../config";
 
 main {
-    background-image:
-        linear-gradient(to right,
-        rgba($text-color, 0.3),
-        rgba($text-color, 0.1)),
-        url("../../images/background-bw.jpg");
+    background-image: url("../../images/background-color-dark.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
+    border: 5px solid #570000;
     box-shadow: 5px 5px 10px $text-color;
+    display: grid;
     grid-column: 2 / 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+
+    .item {
+        color: #fff;
+
+        h1 {
+            color: #aedcc0;
+            font-family: 'Birthstone Bounce', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 5rem;
+            margin: 0;
+            text-shadow: 4px 4px 2px #570000;
+        }
+    }
+
+    .two {
+    }
+
+    .four {
+        align-items: flex-end;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        text-align: center;
+
+        .box {
+            padding: 1rem;
+            width: 80%;
+        }
+    }
 }

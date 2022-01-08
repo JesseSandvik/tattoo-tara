@@ -4,6 +4,8 @@
 }
 
 body {
+  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+  font-weight: 700;
   margin: 0;
   overflow-x: hidden;
   padding: 0;

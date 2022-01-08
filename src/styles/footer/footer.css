@@ -19,7 +19,6 @@ footer .left {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  font-family: 'Permanent Marker', 'Times New Roman', Times, serif;
   -ms-grid-column: 1;
   grid-column: 1 / 1;
   -webkit-box-pack: center;
