@@ -1,9 +1,10 @@
-$background-color: #fff;
-$text-color: #000;
-$accent-color-one: #000;
+$primary-color: #fff;
+$secondary-color: #000;
+$accent-color-one: #570000;
+$accent-color-two: #aedcc0;
 
 @mixin default-social-icon-style {
-    color: $accent-color-one;
+    color: $secondary-color;
     cursor: pointer;
     font-size: 2rem;
 }

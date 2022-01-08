@@ -1,8 +1,7 @@
-
+@import "../config";
 
 nav {
     grid-column: 2 / -1;
-    letter-spacing: 0.2rem;
     text-transform: uppercase;
 
     ul {
@@ -11,5 +10,20 @@ nav {
         flex-direction: row;
         justify-content: space-evenly;
         text-align: center;
+
+        a {
+            border-radius: 3.5px;
+            padding: 0 0.2rem;
+
+            &:hover {
+                opacity: 0.85;
+            }
+        }
+
+        .active {
+            background-color: $secondary-color;
+            color: $primary-color;
+            transition: 0.3s ease-in-out;
+        }
     }
 }

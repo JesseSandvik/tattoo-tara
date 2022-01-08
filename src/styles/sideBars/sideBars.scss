@@ -30,6 +30,11 @@
 
             i {
                 @include default-social-icon-style;
+
+                &:hover {
+                    color: $accent-color-one;
+                    transition: 0.3s ease-in-out;
+                }
             }
         }
     }

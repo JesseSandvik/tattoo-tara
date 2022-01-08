@@ -1,6 +1,5 @@
 nav {
   grid-column: 2 / -1;
-  letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
@@ -19,5 +18,21 @@ nav ul {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   text-align: center;
+}
+
+nav ul a {
+  border-radius: 3.5px;
+  padding: 0 0.2rem;
+}
+
+nav ul a:hover {
+  opacity: 0.85;
+}
+
+nav ul .active {
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 /*# sourceMappingURL=navigation.css.map */
