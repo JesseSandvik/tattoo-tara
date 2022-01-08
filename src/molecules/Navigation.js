@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom";
+import NavigationLink from "../atoms/NavigationLink";
+import { pageRoutes } from "../data/pageRoutes";
 
 import "../styles/navigation/navigation.css";
 
@@ -6,34 +7,14 @@ const Navigation = () => {
     return (
         <nav>
             <ul>
-              <li>
-                <NavLink
-                  to="/"
-                >
-                  home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/about"
-                >
-                  about
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/portfolio"
-                >
-                  portfolio
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/contact"
-                >
-                  contact
-                </NavLink>
-              </li>
+              {pageRoutes.map((route, index) => (
+                <li key={index}>
+                  <NavigationLink
+                    routeName={route.name}
+                    routePath={route.path}
+                  />
+                </li>
+              ))}
             </ul>
         </nav>
     );

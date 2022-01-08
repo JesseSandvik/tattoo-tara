@@ -1,0 +1,17 @@
+[
+    {
+        "name": "instagram",
+        "icon": "fab fa-instagram-square",
+        "link": "https://www.instagram.com/MissTattooTara/"
+    },
+    {
+        "name": "facebook",
+        "icon": "fab fa-facebook-square",
+        "link": "https://www.facebook.com/MissTattooTara/"
+    },
+    {
+        "name": "twitter",
+        "icon": "fab fa-twitter-square",
+        "link": "https://twitter.com/MissTattooTara"
+    }
+]

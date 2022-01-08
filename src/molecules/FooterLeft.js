@@ -1,9 +1,12 @@
-
+import Paragraph from "../atoms/Paragraph";
 
 const FooterLeft = () => {
     return (
         <div className="left">
-            <p>&copy; Body Designs Studio 2022</p>
+            &copy;
+            <Paragraph
+                inputText={"Body Designs Studio 2022"}
+            />
         </div>
     );
 }

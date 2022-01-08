@@ -10,11 +10,7 @@
         display: flex;
         flex-direction: column;
         grid-row: 1 / 1;
-        justify-content: space-around;
-
-        i {
-            @include default-social-icon-style;
-        }
+        justify-content: center;
     }
 
     &.left {
@@ -23,5 +19,18 @@
 
     &.right {
         grid-column: 3 / -1;
+
+        .socialIcons {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-evenly;
+            width: 100%;
+
+            i {
+                @include default-social-icon-style;
+            }
+        }
     }
 }
