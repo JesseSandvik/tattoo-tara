@@ -12,6 +12,10 @@ body {
   padding: 0;
 }
 
+h2 {
+  color: red;
+}
+
 a {
   color: inherit;
   text-decoration: none;

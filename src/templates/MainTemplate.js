@@ -4,11 +4,11 @@ import PageBody from "../organisms/PageBody";
 
 import "../styles/templates/templates.css";
 
-const MainTemplate = () => {
+const MainTemplate = ({ children }) => {
     return (
         <div className="mainTemplate">
             <MainHeader />
-            <PageBody />
+            <PageBody children={children}/>
             <Footer />
         </div>
     );

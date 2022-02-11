@@ -4,11 +4,11 @@ import SideBarRight from "./SideBarRight";
 
 import "../styles/pageBody/pageBody.css";
 
-const PageBody = () => {
+const PageBody = ({ children }) => {
     return (
         <section>
           <SideBarLeft />
-          <Main />
+          <Main children={children} />
           <SideBarRight />
         </section>
     );

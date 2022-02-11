@@ -1,11 +1,19 @@
-import MainTemplate from "./templates/MainTemplate";
-
+import { Routes, Route } from "react-router-dom";
+import { pageRoutes } from "./data/pageRoutes";
 import "./styles/global/global.css";
 
 const App = () => {
   return (
     <div className="app">
-      <MainTemplate />
+      <Routes>
+        {pageRoutes.map((route, index) => (
+          <Route
+            key={index}
+            path={route.path}
+            element={route.element}
+          />
+        ))}
+      </Routes>
     </div>
   );
 }

@@ -1,20 +1,27 @@
-
+import AboutPage from "../pages/AboutPage";
+import ContactPage from "../pages/ContactPage";
+import HomePage from "../pages/HomePage";
+import PortfolioPage from "../pages/PortfolioPage";
 
 export const pageRoutes = [
     {
         name: "home",
-        path: "/"
+        path: "/",
+        element: <HomePage />
     },
     {
         name: "about",
-        path: "/about"
+        path: "/about",
+        element: <AboutPage />
     },
     {
         name: "portfolio",
-        path: "/portfolio"
+        path: "/portfolio",
+        element: <PortfolioPage />
     },
     {
         name: "contact",
-        path: "/contact"
+        path: "/contact",
+        element: <ContactPage />
     }
 ]
