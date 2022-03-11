@@ -3,8 +3,8 @@ import MainTemplate from "../templates/MainTemplate";
 const AboutPage = () => {
     return (
         <MainTemplate>
-            <h2>Hey there guys, gals and non-binary pals, thanks for taking the time to check out my website!</h2>
-            <h3>So ya wanna know a little about me and my work? Well then, grab a seat, and read on!</h3>
+            <h2>So ya wanna know a little more about me and my work?</h2>
+            <br />
             <p>
                 I was very lucky to have the opportunity to spend time around artists and in my father's tattoo studio, from a young age. I really believe this, amongst other things, helped to shape me into the person and artist I am today.
             </p>

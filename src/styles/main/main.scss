@@ -50,9 +50,30 @@ main {
         overflow-y: auto;
         padding: 3rem;
 
-        p {
-            font-size: 1.5rem;
+        h2 {
+            color: #fff;
+            display: flex;
+            font-family: 'Birthstone Bounce', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 2.3rem;
+            justify-content: center;
+            letter-spacing: 0.2rem;
             margin: 0;
+            text-transform: capitalize;
+            width: 100%;
+        }
+
+        h3 {
+            color: #ece2d0;
+            font-size: 1.4rem;
+            margin: 0;
+            padding: 1rem;
+        }
+
+        p {
+            color: #ece2d0;
+            font-size: 1.2rem;
+            margin: 0;
+            padding: 1rem 2rem;
         }
     }
 }
