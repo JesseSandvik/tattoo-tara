@@ -4,9 +4,12 @@ const AboutPage = () => {
     return (
         <MainTemplate>
             <h2>Hey there guys, gals and non-binary pals, thanks for taking the time to check out my website!</h2>
-            <h5>So ya wanna know a little about me and my work? Well then, grab a seat, and read on!</h5>
+            <h3>So ya wanna know a little about me and my work? Well then, grab a seat, and read on!</h3>
             <p>
-                I was very lucky to have the opportunity to spend time around artists and in my father's tattoo studio, from a young age. I really believe this, amongst other things, helped to shape me into the person and artist I am today. ​
+                I was very lucky to have the opportunity to spend time around artists and in my father's tattoo studio, from a young age. I really believe this, amongst other things, helped to shape me into the person and artist I am today.
+            </p>
+            <br />
+            <p>
                 At the age of 16, my father, Michael Fenn & stepmom, Lynn Fenn, told me it was time for me to get a job. I gave a lot of thought to what I wanted to do, knowing I didn't have to make a lifelong decision on the spot, but also knowing I wanted to be happy. I didn't want to work with food and wasn't sure I wanted to work in retail either; I soon realized the call of the arts was reaching out to me. So I asked my father to teach me to tattoo. I loved drawing as well as other arts and crafts since a young age, and always felt comfortable in the tattoo studio around the artists I knew growing up, so I hoped and prayed that he would take me on as an apprentice.
                 Little did we both know what a life-changing decision that would be, when he decided to teach me to tattoo. Ya see, my father had been in the business for many years already, and in 2003 when I did my first tattoo (which happened to be on my father), the studio, Body Designs ,had already been in business for over a decade. 
                 Now, over 16 years later, I am still tattooing and have taken over the business from my father, who retired just a few years ago. 

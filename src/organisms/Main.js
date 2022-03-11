@@ -9,9 +9,7 @@ const Main = ({ children }) => {
             <div className="item one">
                 <h1>Miss Tattoo Tara</h1>
             </div>
-            <div className="item">{children}</div>
-            <div className="item"></div>
-            <div className="item"></div>
+            <div className="item two">{children}</div>
         </main>
     );
 }

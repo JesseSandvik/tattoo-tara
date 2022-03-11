@@ -1,8 +1,8 @@
 import Paragraph from "../atoms/Paragraph";
 
-const FooterLeft = () => {
+const FooterCenter = () => {
     return (
-        <div className="left">
+        <div className="center">
             &copy;
             <Paragraph
                 inputText={"Body Designs Studio 2022"}
@@ -11,4 +11,4 @@ const FooterLeft = () => {
     );
 }
 
-export default FooterLeft;
+export default FooterCenter;
